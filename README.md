@@ -1,26 +1,24 @@
 # UK Market Intelligence System
 
-This is a small project I built to make job hunting a little less opaque.
+This project analyzes UK data, analytics, and AI job postings to provide a clearer view of how roles and companies compare on pay and hiring activity.
 
-It looks at real UK job postings in data, analytics, and AI and tries to answer a simple question: is this job paying what it should?
+The core idea is simple. Given a job posting, what would we expect it to pay based on similar roles in the market, and how does the actual listed salary compare?
 
-Behind the scenes, it pulls job listings, builds a simple model to estimate what similar roles tend to pay, and then compares that to the salary being offered. On top of that, it rolls things up to the company level so you can see which companies tend to pay more or less, and how actively they are hiring.
+The system ingests job data, standardizes it, and uses a machine learning model to estimate expected salary based on role, location, and related features. It then compares that estimate to the listed salary to identify where jobs appear to be above or below market.
 
-There’s also a layer that lets you ask questions about the market. It pulls the most relevant companies and uses an LLM to explain what might be going on in plain English, based only on the data in the system.
+At the company level, the tool aggregates these signals to show hiring intensity, typical pay positioning, and external reputation where available. This allows for a more informed view of which companies may be more competitive on compensation and which may be lagging.
 
-The goal isn’t to be perfect. It’s to give you a directional signal so you can decide which roles to focus on, which ones might be underpaying, and where you might have more leverage.
+An additional layer uses retrieval and a language model to answer questions about the market. Instead of summarizing everything broadly, it pulls the most relevant companies and explains patterns using only the underlying data.
 
-## What it’s doing under the hood
+The goal is not to produce a definitive ranking of companies or salaries, but to provide a structured, evidence-based way to compare opportunities and prioritize where to apply or negotiate.
 
-Job postings come from the Adzuna API and are stored and shaped in BigQuery. A simple machine learning model estimates expected salary based on things like role, location, and other features derived from the posting. The app then compares that estimate to the listed salary.
+## System overview
 
-Company ratings come from Google Places when they’re available. The explanation layer uses retrieval plus Claude so that answers are grounded in the actual companies pulled from the data.
+Job postings are sourced from the Adzuna API and processed through a pipeline built on BigQuery and SQL. A Python-based model estimates expected salary, and the results are combined with external company signals such as ratings and review counts where available.
 
-The app itself is built in Streamlit and is meant to feel lightweight and interactive.
+The application is delivered through a Streamlit interface that supports both company-level exploration and job-level inspection, along with a question-and-answer layer for higher-level interpretation.
 
-## Running it locally
-
-Install dependencies and run:
+## Running locally
 
 ```bash
 pip install -r requirements.txt
