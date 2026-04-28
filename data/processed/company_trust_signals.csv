@@ -1,0 +1,51 @@
+company_lower,job_type_category,posting_count,avg_salary_gap_pct,external_rating,external_review_count,external_rating_source,external_match_method
+itonlinelearning recruitment,training_or_spam,214,-0.2578713653812556,,,google_places,filtered
+it career switch,training_or_spam,211,-0.4566200210304222,,,google_places,filtered
+harnham - data & analytics recruitment,recruiter,136,0.1109345916779072,4.9,97,google_places,api
+jpmorganchase,employer,94,0.0660052909457307,2.4,171,google_places,api
+marchant recruitment,recruiter,76,-0.0246371379420753,5,4,google_places,api
+anson mccade,employer,45,0.1044126550973182,3.4,16,google_places,api
+blackrock,employer,42,0.1855449516691475,2.6,205,google_places,api
+faculty ai,employer,38,-0.0475600273649533,5,48,google_places,api
+london stock exchange group,employer,36,-0.0452280727190694,3.9,203,google_places,api
+lipton media,employer,35,-0.1467333572161286,,,google_places,no_match
+newto training,training_or_spam,34,-0.1600291527271267,,,google_places,filtered
+amazon,employer,33,-0.1549650776357487,3.1,160,google_places,api
+google,employer,31,-0.1236918291371021,4.4,2576,google_places,api
+itol recruit,recruiter,29,-0.2181418669885757,,,google_places,no_match
+edex – education recruitment,recruiter,28,-0.2171483998312144,,,google_places,no_match
+g-research,employer,27,0.0259228794167963,4,33,google_places,api
+mindrift,employer,27,0.0139525843641531,,,google_places,no_match
+harnham,employer,25,0.0954002901178567,4.9,97,google_places,api
+barclays uk,employer,24,-0.105879855109548,3.1,75,google_places,api
+wayman learning trust,training_or_spam,24,-0.4482982644171474,,,google_places,filtered
+spotify,employer,23,-0.1417974969444686,3.5,375,google_places,api
+jack & jill,employer,20,0.09187515782783,5,3,google_places,api
+sr2 | socially responsible recruitment | certified b corporation™,recruiter,19,0.1176817950835655,4.5,2,google_places,api
+wise,employer,19,0.0428578027635016,4.5,2060,google_places,api
+citi,employer,19,-0.0354669224575022,3.2,35,google_places,api
+barclays,employer,18,-0.1054176900798327,3.1,75,google_places,api
+eka finance,employer,18,-0.2110445980544124,5,1,google_places,api
+cognizant,employer,18,-0.4026591664696206,5,1,google_places,api
+tenth revolution group,employer,17,0.0407987101272906,4.7,13,google_places,api
+preply,employer,16,0.1980052768590006,,,google_places,no_match
+capco,employer,16,0.0053888741837481,2.8,4,google_places,api
+deliveroo,employer,16,-0.1041819100304292,1.8,1044,google_places,api
+eames consulting,employer,15,0.2207745710931203,2.2,35,google_places,api
+omnicom media group,employer,15,-0.2203683103728052,4.4,12,google_places,api
+data idols,employer,14,0.4111831832702696,5,1,google_places,api
+depop,employer,14,-0.0487391193334762,3.7,264,google_places,api
+starling,employer,14,-0.1105893190780391,4.8,2097,google_places,api
+hays,employer,14,-0.1229117914349794,3,18,google_places,api
+bny mellon,employer,13,0.2582157166101491,3,14,google_places,api
+lendable,employer,13,-0.260609803142713,4.8,2073,google_places,api
+pontoon,employer,12,0.1044831527847856,4.9,81,google_places,api
+accenture,employer,12,0.0673904637335533,4.8,75,google_places,api
+worldpay,employer,12,0.0146751887888139,2.2,30,google_places,api
+reed,employer,12,-0.0507484631539053,4.2,395,google_places,api
+relx inc,employer,12,-0.1158964757832301,5,1,google_places,api
+citigroup,employer,11,0.0805953116151155,2.3,234,google_places,api
+goldman sachs,employer,11,0.0630903134327292,3.4,227,google_places,api
+pimco,employer,11,0.0457605799718902,4.3,6,google_places,api
+oxford knight,employer,11,0.0415224301379731,4.2,25,google_places,api
+hillarys,employer,11,0.0290267756040147,4.3,7,google_places,api
