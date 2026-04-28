@@ -27,8 +27,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Write Google credentials file
-        run: |
-          echo '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}' > gcp-key.json
+  shell: bash
+  run: |
+    echo "${{ secrets.GCP_SERVICE_ACCOUNT_JSON_B64 }}" | base64 -d > gcp-key.json
+    python -m json.tool gcp-key.json > /dev/null
 
       - name: Run pipeline
         env:
