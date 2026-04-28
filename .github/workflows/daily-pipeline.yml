@@ -1,16 +1,19 @@
-name: Daily Pipeline
+name: Daily Data Pipeline
 
 on:
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 6 * * *"  # daily at 6am UTC
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -20,44 +23,34 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          pip install --upgrade pip
           pip install -r requirements.txt
 
-      # Required GitHub repository secrets for this workflow:
-      # ADZUNA_APP_ID
-      # ADZUNA_APP_KEY
-      # GCP_PROJECT_ID
-      # BIGQUERY_DATASET
-      # GOOGLE_APPLICATION_CREDENTIALS_JSON
-      # GOOGLE_PLACES_API_KEY
-      # ANTHROPIC_API_KEY
-      #
-      # GOOGLE_APPLICATION_CREDENTIALS_JSON should contain the full service account JSON.
       - name: Write Google credentials file
-        env:
-          GOOGLE_APPLICATION_CREDENTIALS_JSON: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS_JSON }}
         run: |
-          python - <<'PY'
-          import os
-          from pathlib import Path
-
-          credentials_json = os.environ.get("GOOGLE_APPLICATION_CREDENTIALS_JSON", "")
-          credentials_path = Path("gcp-service-account.json")
-          credentials_path.write_text(credentials_json, encoding="utf-8")
-          print(f"Wrote credentials file to {credentials_path}")
-          PY
+          echo '${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}' > gcp-key.json
 
       - name: Run pipeline
         env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
           GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
           BIGQUERY_DATASET: ${{ secrets.BIGQUERY_DATASET }}
-          GOOGLE_APPLICATION_CREDENTIALS: gcp-service-account.json
-          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp-key.json
         run: |
           python -m src.ingestion.ingest_jobs
-          python -m src.pipelines.run_bigquery_pipeline
           python -m src.pipelines.train_and_score
           python -m src.rag.build_rag_index
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/processed/*
+          git commit -m "Automated daily data refresh" || echo "No changes to commit"
+
+      - name: Push changes
+        run: |
+          git push
