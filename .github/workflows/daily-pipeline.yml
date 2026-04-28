@@ -43,6 +43,7 @@ jobs:
           GOOGLE_APPLICATION_CREDENTIALS: ${{ github.workspace }}/gcp-key.json
         run: |
           python -m src.ingestion.ingest_jobs
+	  python -m src.pipelines.run_bigquery_pipeline
           python -m src.pipelines.train_and_score
           python -m src.rag.build_rag_index
 
