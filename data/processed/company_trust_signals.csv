@@ -1,51 +1,51 @@
 company_lower,job_type_category,posting_count,avg_salary_gap_pct,external_rating,external_review_count,external_rating_source,external_match_method
-itol recruit,recruiter,78,-0.0070534840518888,,,google_places,no_match
-harnham - data & analytics recruitment,recruiter,46,0.0245855847692751,4.6,293,google_places,api
-amazon,employer,46,-0.0911826973276194,3.5,83,google_places,api
-jpmorganchase,employer,41,0.0136059021713957,3,44,google_places,api
-it career switch,training_or_spam,41,-0.4579265635453857,,,google_places,filtered
-barclays,employer,13,-0.0157717103392371,1.4,360,google_places,api
-amazon development centre  limited,employer,12,0.0018822674254626,4.7,493,google_places,api
-trustpilot,employer,12,-0.0181969444952477,2.3,136,google_places,api
-capco,employer,11,0.0700048349826185,4.6,40,google_places,api
-wise,employer,10,0.0579521088369805,5,58,google_places,api
-true north group,employer,9,0.1780244120898661,5,4,google_places,api
-it online learning,training_or_spam,9,0.1741753687172786,,,google_places,filtered
-anson mccade,employer,9,0.0834417077709664,3.4,16,google_places,api
-g-research,employer,9,-0.0141050405437982,3.9,34,google_places,api
-addepar,employer,9,-0.0419261754330433,4.4,9,google_places,api
-faculty ai,employer,9,-0.1516108632679909,4.8,14,google_places,api
-ocho,employer,8,0.1380848256293407,4.5,1319,google_places,api
-dotmatics,employer,8,-0.2348766576677104,3.7,3,google_places,api
-monzo,employer,7,0.3153401698255956,2.3,245,google_places,api
-compare the market,employer,7,0.1386757224851757,3.8,8,google_places,api
-blackrock,employer,7,0.0705132390301235,4.3,431,google_places,api
-preply,employer,7,0.0544834138154133,,,google_places,no_match
-sword group,employer,7,0.0280760472521584,4.4,7,google_places,api
-mcs group,employer,7,-0.0713985582903535,2.8,12,google_places,api
-deliveroo,employer,7,-0.0819026876067975,1.8,1051,google_places,api
-aecom,employer,7,-0.0967988579783824,4.3,25,google_places,api
-multiverse,employer,7,-0.2059302357404328,4.5,202,google_places,api
-tomoro,employer,6,0.3097776371460502,3,2,google_places,api
-datatech analytics,employer,6,0.2172477575490581,2.5,8,google_places,api
-leidos innovations uk limited,employer,6,-0.0071647060278779,4.3,6,google_places,api
-ageas insurance limited,employer,6,-0.1279284389872404,2.6,245,google_places,api
-stantec,employer,6,-0.198409073720792,4.8,10,google_places,api
-data idols,employer,5,0.2681091205549831,5,1,google_places,api
-pontoon,employer,5,0.2551132144356,3.7,86,google_places,api
-harvey nash,employer,5,0.2117662390638207,4.8,35,google_places,api
-datatech,employer,5,0.1999200600562077,4.8,108,google_places,api
-eames consulting,employer,5,0.1851499109702214,2.2,35,google_places,api
-hays specialist recruitment limited,recruiter,5,0.1716148538855399,3.6,136,google_places,api
-optima partners,employer,5,0.125100450011757,1,1,google_places,api
-michael page technology,employer,5,0.0587124576592501,,,google_places,no_match
-sainsbury's,employer,5,-0.0388852679850268,,,google_places,no_match
-c-serv,employer,5,-0.0671332440275437,4.8,59,google_places,api
-scott logic,employer,5,-0.1319125818033169,4.8,8,google_places,api
-robert half,employer,5,-0.137086126431176,4.8,244,google_places,api
-amazon eu sarl,employer,5,-0.1733393306145676,3,656,google_places,api
-wordsmith ai,employer,5,-0.1926837065949472,5,1,google_places,api
-lj recruitment,recruiter,5,-0.2739794709968809,5,36,google_places,api
-amentum,employer,5,-0.396382584618003,3.6,7,google_places,api
-sanderson,employer,4,0.4763197071303938,,,google_places,no_match
-ibm,employer,4,0.3523538357459833,4.3,731,google_places,api
+jpmorganchase,employer,42,0.0195171377612997,3,24,google_places,api
+amazon,employer,42,-0.0633645664014019,4,98,google_places,api
+harnham - data & analytics recruitment,recruiter,29,0.0316178255803142,4.6,293,google_places,api
+it online learning,training_or_spam,22,0.2712304040344185,,,google_places,filtered
+wise,employer,17,0.0489616696759578,4.3,37,google_places,api
+g-research,employer,13,-0.0069153745635447,3.9,34,google_places,api
+barclays,employer,12,0.0168775223088877,1.4,360,google_places,api
+amazon development centre  limited,employer,12,0.0081498197531869,4.7,494,google_places,api
+capco,employer,11,0.0996396976287402,,,google_places,no_match
+trustpilot,employer,11,-0.0026714182826636,2.3,137,google_places,api
+harnham,employer,9,0.1066135543461096,4.6,293,google_places,api
+mcs group,employer,9,0.0452095654885613,2.8,12,google_places,api
+addepar,employer,9,-0.0061804373679849,4.4,9,google_places,api
+multiverse,employer,8,-0.1998783812982676,5,100,google_places,api
+compare the market,employer,7,0.135350087142383,,,google_places,no_match
+ocho,employer,7,0.1101825281064945,4.5,1319,google_places,api
+blackrock,employer,7,0.1064084542471102,4.5,8,google_places,api
+sword group,employer,7,0.0745864206800481,4.7,27,google_places,api
+anson mccade,employer,7,0.0685670594257382,3.2,17,google_places,api
+preply,employer,7,0.0578020550510652,,,google_places,no_match
+aecom,employer,7,-0.0545465103283255,4.4,8,google_places,api
+tomoro,employer,6,0.227929801981521,3,2,google_places,api
+monzo,employer,6,0.1433529202472936,2.3,245,google_places,api
+sr2 | socially responsible recruitment | certified b corporation™,recruiter,6,0.1312882344307346,,,google_places,no_match
+sainsbury's,employer,6,-0.0318539808455811,,,google_places,no_match
+stantec,employer,6,-0.1639895645617481,,,google_places,no_match
+dotmatics,employer,6,-0.205648874395331,5,12,google_places,api
+harvey nash,employer,5,0.3129873202242561,4.8,35,google_places,api
+eames consulting,employer,5,0.2421881425566058,2.2,35,google_places,api
+data idols,employer,5,0.2091354744991491,5,1,google_places,api
+optima partners,employer,5,0.1739090238565278,1,1,google_places,api
+datatech,employer,5,0.0995933936416114,5,3,google_places,api
+datatech analytics,employer,5,0.0681967184243793,2.5,8,google_places,api
+adecco,employer,5,0.0348243351602771,4.3,62,google_places,api
+deliveroo,employer,5,-0.0083452530024148,1.8,1051,google_places,api
+spire,employer,5,-0.0298656134696557,2.9,28,google_places,api
+c-serv,employer,5,-0.0436781962566792,4.8,59,google_places,api
+scott logic,employer,5,-0.1100253302389393,4.8,8,google_places,api
+leidos innovations uk limited,employer,5,-0.1239312718133461,4.3,6,google_places,api
+amazon eu sarl,employer,5,-0.1399384106654945,3,656,google_places,api
+ageas insurance limited,employer,5,-0.1516028758684765,2.6,245,google_places,api
+wordsmith ai,employer,5,-0.1528925870736043,,,google_places,no_match
+lj recruitment,recruiter,5,-0.199850337920363,5,36,google_places,api
+itol recruit,recruiter,5,-0.3511764836514417,,,google_places,no_match
+amentum,employer,5,-0.3523427022342421,1.8,10,google_places,api
+pontoon,employer,4,0.4857396921446561,4.4,34,google_places,api
+ibm,employer,4,0.3078794598211777,4.1,41,google_places,api
+morgan stanley,employer,4,0.1811031993097082,4.4,9,google_places,api
+res,employer,4,0.0929554965456028,4.4,21,google_places,api
+s&p global,employer,4,0.0265975183166737,4,4,google_places,api
