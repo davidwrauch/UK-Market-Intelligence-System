@@ -1,51 +1,51 @@
 company_lower,job_type_category,posting_count,avg_salary_gap_pct,external_rating,external_review_count,external_rating_source,external_match_method
-hackajob ltd,employer,69,0.0532274142365878,3,5,google_places,api
-jpmorganchase,employer,62,0.0373481343653949,3.4,26,google_places,api
-wise,employer,38,0.0116322751542509,,,google_places,no_match
-harnham - data & analytics recruitment,recruiter,34,0.104713585049971,4.6,296,google_places,api
-amazon,employer,24,-0.0763506301487737,3.9,87,google_places,api
-it online learning,training_or_spam,20,0.2343148206259211,,,google_places,filtered
-barclays,employer,19,-0.0324512466749939,4.2,1157,google_places,api
-newto training limited,training_or_spam,18,0.0757269218304857,,,google_places,filtered
-anson mccade,employer,18,0.0412743814739461,3.1,18,google_places,api
-j.p. morgan,employer,18,0.0130412618700712,3.4,26,google_places,api
-ocho,employer,12,0.1114996763218183,5,199,google_places,api
-g-research,employer,12,-0.0341945628713739,3.9,33,google_places,api
-mercor,employer,12,-0.1312349168254003,4,142,google_places,api
-omdgrpuk omd group,employer,11,-0.0857066374318758,4.9,10,google_places,api
-capco,employer,9,-0.0292618804238279,4.9,9,google_places,api
-optima partners,employer,9,-0.0399748746655619,1,1,google_places,api
-london stock exchange group,employer,9,-0.2088357595465961,4,213,google_places,api
-stantec,employer,9,-0.2624927890983694,1,1,google_places,api
-blackrock,employer,8,0.0904109953935726,4.7,21,google_places,api
-informed solutions,employer,8,-0.0770814649247793,3.8,11,google_places,api
-marchant recruitment,recruiter,8,-0.1312795456612789,,,google_places,no_match
-morgan stanley,employer,7,0.0584145893612342,3,6,google_places,api
-adecco,employer,7,0.0512512459015358,3.9,126,google_places,api
-capgemini,employer,7,-0.0259132004675845,4.2,2401,google_places,api
-aecom,employer,7,-0.0797962572932038,4.4,32,google_places,api
-asos,employer,7,-0.1197797407967743,4.1,524,google_places,api
-baillie gifford & co,employer,7,-0.1275393406510526,3.5,12,google_places,api
-monzo,employer,6,0.1882742983141975,,,google_places,no_match
-eames consulting,employer,6,0.0910605784946411,2.3,36,google_places,api
-addepar,employer,6,0.0789967669281109,4.4,9,google_places,api
-preply,employer,6,0.0243024589395742,,,google_places,no_match
-capitex,employer,6,0.0039904364343193,3.8,10,google_places,api
-txp,employer,5,0.3589854938994772,4.9,22,google_places,api
-michael page,employer,5,0.1534423747908006,4.7,610,google_places,api
-gleeson recruitment group,recruiter,5,0.0831406601410308,4.5,289,google_places,api
-compare the market,employer,5,0.0682610779979125,4.4,1158,google_places,api
-amazon development centre  limited,employer,5,0.0524097713341814,4.7,510,google_places,api
-jacobs,employer,5,-0.0383785712832734,4.4,8,google_places,api
-vermelo,employer,5,-0.139462342208191,4.8,50,google_places,api
-mms,employer,5,-0.1405150798762642,,,google_places,no_match
-byoma,employer,5,-0.1829093597141717,5,5,google_places,api
-faculty ai,employer,5,-0.184120190327096,4.7,132,google_places,api
-simply business,employer,5,-0.2035408540254756,4.4,682,google_places,api
-lendable,employer,5,-0.4172862295776749,4.8,2093,google_places,api
-sanderson recruitment,recruiter,4,0.3980919641461653,2.5,21,google_places,api
-the portfolio group,employer,4,0.1866635285249063,4.7,39,google_places,api
-bright purple resourcing,employer,4,0.1480096685915588,4.4,28,google_places,api
-accenture,employer,4,0.1390195622719125,4.7,15,google_places,api
-trustpilot,employer,4,0.1163277673065558,2.3,140,google_places,api
-openai,employer,4,0.1008444519298436,3.1,15,google_places,api
+hackajob ltd,employer,71,0.0449807534843194,3,5,google_places,api
+jpmorganchase,employer,61,0.0290917744249549,5,2,google_places,api
+wise,employer,37,0.0389175542200547,5,62,google_places,api
+harnham - data & analytics recruitment,recruiter,32,0.0406096261992975,4.6,296,google_places,api
+amazon,employer,24,-0.0701019576899797,3.5,82,google_places,api
+a&o shearman,employer,21,-0.0180388422177822,4,29,google_places,api
+it online learning,training_or_spam,20,0.2610474457354267,,,google_places,filtered
+capgemini,employer,19,0.0100403198214755,4.7,47,google_places,api
+barclays,employer,19,-0.075487558972408,1.4,367,google_places,api
+anson mccade,employer,18,0.1109861077290645,3.1,18,google_places,api
+newto training limited,training_or_spam,18,0.0662992896470772,,,google_places,filtered
+j.p. morgan,employer,17,0.0377531184573046,4,14,google_places,api
+g-research,employer,12,-0.0417851227870017,3.9,33,google_places,api
+omdgrpuk omd group,employer,12,-0.1046320228332177,4.9,10,google_places,api
+mercor,employer,12,-0.1445359157650917,2.1,7,google_places,api
+ocho,employer,9,0.1669814450410991,4.4,290,google_places,api
+optima partners,employer,9,-0.0239329166003204,1,1,google_places,api
+capco,employer,9,-0.0299058032632078,4.6,41,google_places,api
+stantec,employer,9,-0.2759018290530113,2,1,google_places,api
+blackrock,employer,8,0.0789404892830566,4.3,444,google_places,api
+informed solutions,employer,8,-0.0804965656776597,3.8,11,google_places,api
+marchant recruitment,recruiter,8,-0.1423416894935628,,,google_places,no_match
+london stock exchange group,employer,8,-0.2336999134560656,4,213,google_places,api
+adecco,employer,7,0.1790223238426032,4.3,969,google_places,api
+monzo,employer,6,0.3154776311774361,,,google_places,no_match
+addepar,employer,6,0.0841270946333824,4.4,9,google_places,api
+morgan stanley,employer,6,0.0719259479430392,3.9,117,google_places,api
+eames consulting,employer,6,0.0437713556757187,,,google_places,no_match
+preply,employer,6,0.0421412044110604,,,google_places,no_match
+capitex,employer,6,0.0381455865151622,3.8,10,google_places,api
+aecom,employer,6,-0.0973118152300891,4.3,25,google_places,api
+asos,employer,6,-0.1147467556753791,,,google_places,no_match
+vermelo,employer,6,-0.1418696268418675,4.8,50,google_places,api
+txp,employer,5,0.2769581275867155,,,google_places,no_match
+michael page,employer,5,0.1561615418085251,4.7,610,google_places,api
+gleeson recruitment group,recruiter,5,0.0746320679871369,4.5,289,google_places,api
+compare the market,employer,5,0.0705022113596658,3.6,7,google_places,api
+amazon development centre  limited,employer,5,0.0617430267836161,4.2,1224,google_places,api
+simply business,employer,5,-0.0577300590010249,4.4,682,google_places,api
+jacobs,employer,5,-0.0620557932255012,4.7,25,google_places,api
+mms,employer,5,-0.1254363225953965,3.8,13,google_places,api
+baillie gifford & co,employer,5,-0.1644844103800043,1,2,google_places,api
+byoma,employer,5,-0.1694697356997165,5,5,google_places,api
+faculty ai,employer,5,-0.2128874065705338,,,google_places,no_match
+lendable,employer,5,-0.4703117131900408,4.8,2093,google_places,api
+the portfolio group,employer,4,0.2643145317756631,5,1,google_places,api
+accenture,employer,4,0.1358024424676034,4.8,75,google_places,api
+bright purple resourcing,employer,4,0.125716518347829,4.4,28,google_places,api
+solus accident repair centres,employer,4,0.1141080233172908,4.2,194,google_places,api
+openai,employer,4,0.1129156231363256,3.3,95,google_places,api
